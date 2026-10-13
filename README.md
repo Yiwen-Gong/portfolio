@@ -1,13 +1,53 @@
-Yiwen Gong Portfolio — Interactive Gallery
+# Yiwen Gong — Portfolio
 
-Open index.html in a browser. All HTML, CSS and JavaScript are local; Google Fonts requires internet.
+Personal portfolio website for **Yiwen Gong**, a Computer Science student at the University of Waterloo interested in software engineering, artificial intelligence, and human-centered technology.
 
-Beyond the Code now has two side-by-side stacked galleries. Hover to focus, use arrows or swipe to browse. Cover designs are original typographic placeholders, not official cover art.
+**Live site:** [yiwengong.com](https://yiwengong.com)
 
-Gallery update: all cards remain upright; hover selection waits 280ms; swipes require 85px and transitions are slower.
+## About
 
+This portfolio highlights my selected projects, professional experience, research, and interests beyond software development. It is designed as a responsive, interactive single-page website with a clean editorial style.
 
-## Cover images
-The gallery now uses real external cover artwork URLs from Steam, Riot's Data Dragon and Open Library. These load when the viewer has an internet connection; the existing colorful text covers remain as fallbacks if an image cannot load. League of Legends and Teamfight Tactics use representative Riot champion splash art, not official box covers. The Wu Zetian book may fall back to its text cover if no matching Open Library cover exists.
+## Featured work
 
-ChamberCrawler3000: click the project image/title or “Watch the introduction video” to play the locally bundled MP4 in a modal. Keep the assets folder when moving the website.
+- **Folium** — A book discovery and reading-tracking application built with Kotlin, Jetpack Compose, Ktor, and Supabase.
+- **AI Scribe Research** — Research on multilingual and code-switched clinical conversations for speech recognition and clinical note generation.
+- **ChamberCrawler3000** — A multi-level C++ dungeon crawler built with object-oriented architecture and extensible game systems.
+- **Catana** — An AI-powered Catan strategy assistant that interprets game states and recommends strategic moves.
+
+## Features
+
+- Responsive design for desktop and mobile devices
+- Light and dark color themes
+- Interactive project presentation
+- Embedded ChamberCrawler3000 introduction video
+- Browsable game and book galleries
+- Downloadable résumé
+- Custom domain hosted with GitHub Pages
+
+## Built with
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- GitHub Pages
+
+## Run locally
+
+No build process is required. Clone or download the repository, then open `index.html` in a web browser.
+
+```bash
+git clone https://github.com/Yiwen-Gong/portfolio.git
+cd portfolio
+```
+
+Some fonts and cover artwork are loaded from external sources, so an internet connection is recommended.
+
+## Contact
+
+- Email: [y76gong@uwaterloo.ca](mailto:y76gong@uwaterloo.ca)
+- LinkedIn: [Yiwen Gong](https://www.linkedin.com/in/yiwen-gong-106aaa326/)
+
+---
+
+© 2026 Yiwen Gong
